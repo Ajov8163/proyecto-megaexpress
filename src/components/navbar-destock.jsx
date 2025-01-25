@@ -2,7 +2,7 @@ import logo from "../assets/img/logo.png";
 import { HiMenu } from "react-icons/hi";
 function NavbarDestock() {
   return (
-    <navbar className="bg-[#000735] sm:h-20 h-16 flex justify-between items-center px-3 sm:px-14 sm:rounded-b-[30px] rounded-b-2xl">
+    <navbar className="bg-[#000735] sm:h-20 h-20 flex justify-between items-center px-3 sm:px-14 sm:rounded-b-[30px] rounded-b-2xl">
       <div className="flex justify-between items-center sm:gap-12 w-full sm:w-auto ">
         <div>
           <img className="sm:w-36 w-24" src={logo} alt="Logo" />
