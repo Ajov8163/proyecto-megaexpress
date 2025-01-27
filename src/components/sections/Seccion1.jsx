@@ -1,4 +1,4 @@
-import React from 'react'
+
 // Importa las imágenes locales
 import imagen1 from "../../assets/img/compra.jpg";
 import imagen2 from "../../assets/img/negocios.jpg";
@@ -17,7 +17,7 @@ import {
   Keyboard,
   Autoplay,
 } from "swiper/modules";
-const Section11 = () => {
+const Section1 = () => {
   return (
    
       <div className="sm:flex  sm:mx-12 sm:mt-20 mt-12 justify-center gap-20 h-auto items-center">
@@ -66,6 +66,6 @@ const Section11 = () => {
   )
 }
 
-export default Section11;
+export default Section1;
 
 

@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Homee from './components/Homee'
+import Home from './pages/Home'
 
 function App() {
  
@@ -9,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Homee/>} />
+        <Route path="/" element={<Home/>} />
       </Routes>
     </BrowserRouter>
     </>
