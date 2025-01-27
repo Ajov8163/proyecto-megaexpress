@@ -22,39 +22,44 @@ import {
 
 const Section2 = () => {
   return (
-    <div className="sm:mt-40 mt-20 sm:mx-12 px-3  ">
-      <h1 className="flex justify-center sm:text-5xl text-2xl sm:mb-32 mb-10 sm:font-bold font-bold">NUESTROS ALIADOS</h1>
+    <div className="sm:mt-40 mt-20 sm:mx-12 px-3 sm:px-0  pb-20">
+      <h1 className="flex justify-center sm:text-5xl text-2xl sm:mb-28 mb-8 sm:font-bold font-bold">NUESTROS ALIADOS</h1>
       <Swiper
+      spaceBetween={30}
         cssMode={true}
         navigation={true}
-        pagination={true}
+        // pagination={true}
+        pagination={{
+          clickable: true,
+        }}
+        slidesPerView={6}
         mousewheel={true}
         keyboard={false}
-        // autoplay={{ delay: 2000, disableOnInteraction: true }}
+        autoplay={{ delay: 2000, disableOnInteraction: true }}
         loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-        className="Swiper2 w-full h-auto"
+        className="Swiper2 w-full sm:h-auto h-50 "
       >
         <SwiperSlide>
-          <img className="w-80" src={desechables} alt="desechables" />
+          <img className="sm:w-60 w-48" src={desechables} alt="desechables" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="w-80" src={drogueria} alt="drogueria" />
+          <img className="sm:w-60 w-48" src={drogueria} alt="drogueria" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="w-80" src={fruty} alt="fruty" />
+          <img className="sm:w-60 w-48" src={fruty} alt="fruty" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="w-80" src={juliao} alt="juliao" />
+          <img className="sm:w-60 w-48" src={juliao} alt="juliao" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="w-80" src={lavanderia} alt="lavanderia" />
+          <img className="sm:w-60 w-48" src={lavanderia} alt="lavanderia" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="w-80" src={ricuras} alt="ricuras" />
+          <img className="sm:w-60 w-48" src={ricuras} alt="ricuras" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="w-80" src={supercarnes} alt="supercarnes" />
+          <img className="sm:w-60 w-48" src={supercarnes} alt="supercarnes" />
           </SwiperSlide>
       </Swiper>
     </div>

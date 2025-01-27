@@ -16,6 +16,7 @@ import {
   Mousewheel,
   Keyboard,
   Autoplay,
+  
 } from "swiper/modules";
 const Section1 = () => {
   return (
@@ -35,17 +36,20 @@ const Section1 = () => {
           Regístrate
         </button>
       </div>
-      <div className="sm:w-5/12 px-3 ">
+      <div className="sm:w-5/12 px-3 sm:px-0" >
         <Swiper
+        spaceBetween={1}
           cssMode={true}
           // navigation={true}
-          // pagination={true}
+          pagination={{
+            clickable: true,
+          }}
           mousewheel={true}
           keyboard={false}
           autoplay={{ delay: 2000, disableOnInteraction: true }}
           loop={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-          className="Swiper1 w-full h-full"
+          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay, ]}
+          className="Swiper1 w-full h-full rounded-3xl "
         >
           <SwiperSlide>
             <img src={imagen1} alt="Imagen 1" />
