@@ -25,41 +25,56 @@ const Section2 = () => {
     <div className="sm:mt-40 mt-20 sm:mx-12 px-3 sm:px-0  pb-20">
       <h1 className="flex justify-center sm:text-5xl text-2xl sm:mb-28 mb-8 sm:font-bold font-bold">NUESTROS ALIADOS</h1>
       <Swiper
-      spaceBetween={30}
+      spaceBetween={10}
         cssMode={true}
-        navigation={true}
+        // navigation={true}
         // pagination={true}
-        pagination={{
-          clickable: true,
+        // pagination={{
+        //   clickable: true,
+        // }}
+        breakpoints={{
+          // cuando la ventana sea >= 640px
+          640: {
+            slidesPerView: 5,
+          },
+          // cuando la ventana sea >= 768px
+          768: {
+            slidesPerView: 4,
+          },
+          // cuando la ventana sea >= 1024px
+          1024: {
+            slidesPerView: 5,
+            
+          },
         }}
-        slidesPerView={6}
+        slidesPerView={4}
         mousewheel={true}
         keyboard={false}
-        autoplay={{ delay: 2000, disableOnInteraction: true }}
+        autoplay={{ delay: 2500, disableOnInteraction: true }}
         loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-        className="Swiper2 w-full sm:h-auto h-50 "
+        className="Swiper2 w-full sm:h-auto "
       >
-        <SwiperSlide>
-          <img className="sm:w-60 w-48" src={desechables} alt="desechables" />
+        <SwiperSlide className="w-fit ">
+          <img className="sm:w-60 w-24 rounded-full" src={desechables} alt="desechables" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="sm:w-60 w-48" src={drogueria} alt="drogueria" />
+          <img className="sm:w-60 w-24 rounded-full" src={drogueria} alt="drogueria" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="sm:w-60 w-48" src={fruty} alt="fruty" />
+          <img className="sm:w-60 w-24 rounded-full" src={fruty} alt="fruty" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="sm:w-60 w-48" src={juliao} alt="juliao" />
+          <img className="sm:w-60 w-24 rounded-full" src={juliao} alt="juliao" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="sm:w-60 w-48" src={lavanderia} alt="lavanderia" />
+          <img className="sm:w-60 w-24" src={lavanderia} alt="lavanderia" />
+          </SwiperSlide>
+          <SwiperSlide >
+          <img className="sm:w-60 w-24" src={ricuras} alt="ricuras" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="sm:w-60 w-48" src={ricuras} alt="ricuras" />
-          </SwiperSlide>
-          <SwiperSlide>
-          <img className="sm:w-60 w-48" src={supercarnes} alt="supercarnes" />
+          <img className="sm:w-60 w-24" src={supercarnes} alt="supercarnes" />
           </SwiperSlide>
       </Swiper>
     </div>
