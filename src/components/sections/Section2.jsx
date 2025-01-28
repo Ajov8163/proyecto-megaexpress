@@ -7,7 +7,7 @@ import drogueria from "../../assets/img/clientes/drogueria.jpg";
 import fruty from "../../assets/img/clientes/fruty.jpg";
 import juliao from "../../assets/img/clientes/juliao.jpg";
 import lavanderia from "../../assets/img/clientes/lavanderia.jpg";
-import ricuras from "../../assets/img/clientes/ricuras.png";
+import ricuras from "../../assets/img/clientes/ricuras.jpg";
 import supercarnes from "../../assets/img/clientes/supercarnes.jpg";
 
 
@@ -48,9 +48,10 @@ const Section2 = () => {
           },
         }}
         slidesPerView={4}
-        mousewheel={true}
+        mousewheel={false}
         keyboard={false}
-        autoplay={{ delay: 2500, disableOnInteraction: true }}
+        autoplay={{ delay: 3000, disableOnInteraction: false}}
+        speed={3000}
         loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className="Swiper2 w-full sm:h-auto "
@@ -68,13 +69,13 @@ const Section2 = () => {
           <img className="sm:w-60 w-24 rounded-full" src={juliao} alt="juliao" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="sm:w-60 w-24" src={lavanderia} alt="lavanderia" />
+          <img className="sm:w-60 w-24 rounded-full" src={lavanderia} alt="lavanderia" />
           </SwiperSlide>
           <SwiperSlide >
-          <img className="sm:w-60 w-24" src={ricuras} alt="ricuras" />
+          <img className="sm:w-60 w-24 rounded-full" src={ricuras} alt="ricuras" />
           </SwiperSlide>
           <SwiperSlide>
-          <img className="sm:w-60 w-24" src={supercarnes} alt="supercarnes" />
+          <img className="sm:w-60 w-24 rounded-full" src={supercarnes} alt="supercarnes" />
           </SwiperSlide>
       </Swiper>
     </div>

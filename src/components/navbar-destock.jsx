@@ -3,9 +3,9 @@ import { HiMenu } from "react-icons/hi";
 function NavbarDestock() {
   return (
     <navbar className="bg-[#000735] sm:h-20 h-20 flex justify-between items-center px-3 sm:px-14 sm:rounded-b-[30px] rounded-b-2xl">
-      <div className="flex justify-around gap-20 items-center sm:gap-12 w-full sm:w-auto ">
+      <div className="flex justify-around gap-40 items-center sm:gap-12 w-full sm:w-auto ">
         <div>
-          <img className="sm:w-36 w-36" src={logo} alt="Logo" />
+          <img className="sm:w-36 w-32" src={logo} alt="Logo" />
         </div>
         <div className="sm:hidden">
           <HiMenu className="text-white text-4xl" />

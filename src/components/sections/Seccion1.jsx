@@ -44,9 +44,9 @@ const Section1 = () => {
           pagination={{
             clickable: true,
           }}
-          mousewheel={true}
+          mousewheel={false}
           keyboard={false}
-          autoplay={{ delay: 3000, disableOnInteraction: true }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay, ]}
           className="Swiper1 w-full h-full rounded-3xl "
