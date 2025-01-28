@@ -22,7 +22,7 @@ import {
 
 const Section2 = () => {
   return (
-    <div className="sm:mt-40 mt-20 sm:mx-12 px-3 sm:px-0  pb-20">
+    <div className="sm:mt-40 mt-20 sm:mx-12 px-3 sm:px-0  ">
       <h1 className="flex justify-center sm:text-5xl text-2xl sm:mb-28 mb-8 sm:font-bold font-bold">NUESTROS ALIADOS</h1>
       <Swiper
       spaceBetween={10}
@@ -50,8 +50,9 @@ const Section2 = () => {
         slidesPerView={4}
         mousewheel={false}
         keyboard={false}
-        autoplay={{ delay: 3000, disableOnInteraction: false}}
-        speed={3000}
+        autoplay={{ delay: 2000, disableOnInteraction: false}}
+        speed={6500}
+        freeMode={true} 
         loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className="Swiper2 w-full sm:h-auto "
