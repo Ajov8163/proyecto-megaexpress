@@ -1,8 +1,8 @@
 
 const Section4 = () => {
   return (
-    <div className="mt-20 rounded-tr-[250px] bg-[#000735] text-white h-auto items-center justify-center flex flex-col py-20">
-        <h1 className="text-5xl mb-16">NUESTRO HORARIO</h1>
+    <div className="mt-20 sm:rounded-tr-[250px] rounded-tr-[80px] bg-[#000735] text-white h-auto items-center justify-center flex flex-col sm:py-20 py-10">
+        <h1 className="sm:text-5xl text-2xl sm:mb-16 mb-10">NUESTRO HORARIO</h1>
         {/* dias de las semanas sin hover  */}
         {/* <div className="flex justify-center flex-wrap gap-x-36 gap-y-10 ">
             <div className=" border-2 border-white w-48 h-52 rounded-xl p-8 flex flex-col justify-evenly items-center hover:bg-white hover:text-[#000735] transition duration-700 ease-in-out">
@@ -35,15 +35,15 @@ const Section4 = () => {
             </div>
           
         </div> */}
-        <div className="flex justify-center flex-wrap gap-x-36 gap-y-10 dias-semana">
+        <div className="flex justify-center flex-wrap sm:gap-x-36 sm:gap-y-10 gap-x-8 gap-y-7 dias-semana">
         {['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sabado','Domingo'].map((dia, index) => (
           <div key={index} className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <h2 className="text-3xl">{dia}</h2>
+                <h2 className="sm:text-3xl text-xl">{dia}</h2>
               </div>
               <div className="flip-card-back">
-                <p className="text-3xl font-semibold ">7:00am <br />a <br/>7:00pm</p>
+                <p className="sm:text-3xl text-xl font-medium ">7:00am <br />a <br/>7:00pm</p>
               </div>
             </div>
           </div>

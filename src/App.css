@@ -11,6 +11,13 @@ body {
     height: 200px;
     perspective: 1000px;
   }
+  @media screen and (max-width: 768px) {
+    .flip-card {
+      width: 110px;
+      height: 110px;
+    }
+    
+  }
   
   .flip-card-inner {
     position: relative;
