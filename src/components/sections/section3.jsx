@@ -4,7 +4,7 @@ import negocio from "../../assets/img/negocios.jpg";
 const Section3 = () => {
   return (
     <div className="flex flex-col items-center text-center sm:mx-12 mt-20 sm:px-0 px-3">
-      <h1 className="sm:text-5xl text-2xl  font-bold sm:mb-20 mb-14">
+      <h1 className="sm:text-5xl text-2xl w-62  font-bold sm:mb-20 mb-14">
         Descubre nuestras características únicas<br/>que transforman la mensajería
         en 
        <br className="hidden sm:block" />
