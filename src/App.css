@@ -42,7 +42,7 @@ body {
     justify-content: center;
     border: 2px solid white;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 10px;
   }
   
   .flip-card-front {
