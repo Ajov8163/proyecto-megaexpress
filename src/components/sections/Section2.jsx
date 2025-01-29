@@ -22,7 +22,7 @@ import {
 
 const Section2 = () => {
   return (
-    <div className="sm:mt-40 mt-20 sm:mx-12 px-3 sm:px-0  ">
+    <div className="sm:mt-40 mt-20 sm:mx-12 px-3 sm:px-0   ">
       <h1 className="flex justify-center sm:text-5xl text-2xl sm:mb-28 mb-8 sm:font-bold font-bold">NUESTROS ALIADOS</h1>
       <Swiper
       spaceBetween={10}
@@ -36,15 +36,17 @@ const Section2 = () => {
           // cuando la ventana sea >= 640px
           640: {
             slidesPerView: 5,
+           
           },
           // cuando la ventana sea >= 768px
           768: {
             slidesPerView: 4,
+           
           },
           // cuando la ventana sea >= 1024px
           1024: {
             slidesPerView: 5,
-            
+            spaceBetween: 56,
           },
         }}
         slidesPerView={4}
@@ -55,10 +57,10 @@ const Section2 = () => {
         freeMode={true} 
         loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-        className="Swiper2 w-full sm:h-auto "
+        className="Swiper2 w-full sm:h-auto bg-[#000735] sm:rounded-full rounded-full flex justify-center "
       >
-        <SwiperSlide className="w-fit ">
-          <img className="sm:w-60 w-24 rounded-full" src={desechables} alt="desechables" />
+        <SwiperSlide>
+          <img className="sm:w-60 w-24 rounded-full " src={desechables} alt="desechables" />
         </SwiperSlide>
         <SwiperSlide>
           <img className="sm:w-60 w-24 rounded-full" src={drogueria} alt="drogueria" />

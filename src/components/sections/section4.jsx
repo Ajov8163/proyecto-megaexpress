@@ -1,7 +1,7 @@
 
 const Section4 = () => {
   return (
-    <div className="mt-20 sm:rounded-tr-[250px] rounded-tr-[80px] bg-[#000735] text-white h-auto items-center justify-center flex flex-col sm:py-20 pt-10">
+    <div className="section4 mt-20 sm:rounded-tr-[250px] rounded-tr-[80px] bg-[#000735] text-white h-auto items-center justify-center flex flex-col sm:py-20 pt-10">
         <h1 className="sm:text-5xl text-2xl sm:mb-16 mb-5">NUESTRO HORARIO</h1>
         {/* dias de las semanas sin hover  */}
         {/* <div className="flex justify-center flex-wrap gap-x-36 gap-y-10 ">

@@ -11,7 +11,7 @@ const Section3 = () => {
       </h1>
       <div className="flex sm:gap-14 sm:flex-row flex-col gap-6 ">
         <div className=" border-2 border-[#000735]  rounded-3xl">
-          <img className="rounded-3xl" src={compra} alt="compra" />
+          <img className="rounded-[22px]" src={compra} alt="compra" />
           <div className="p-5 text">
             <h3 className="text-xl font-semibold mb-5">
               Entregas rápidas y eficientes para{" "}
@@ -25,7 +25,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className=" border-2 border-[#000735]  rounded-3xl">
-          <img className="rounded-3xl" src={seguro} alt="seguro" />
+          <img className="rounded-[22px]" src={seguro} alt="seguro" />
           <div className="p-5 text">
             <h3 className="text-xl font-semibold mb-5">
               Eficiencia garantizada en cada
@@ -38,7 +38,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className=" border-2 border-[#000735]  rounded-3xl">
-          <img className="rounded-3xl" src={negocio} alt="negocio" />
+          <img className="rounded-[22px]" src={negocio} alt="negocio" />
           <div className="p-5 text">
             <h3 className="text-xl font-semibold mb-5">
               Atención al cliente excepcional para{" "}

@@ -5,21 +5,23 @@ body {
     background-color: #f5f5f5;
 }
 
-.flip-card {
+
+/* esto es de la section4 */
+.section4 .flip-card {
     background-color: transparent;
     width: 200px;
     height: 200px;
     perspective: 1000px;
   }
   @media screen and (max-width: 768px) {
-    .flip-card {
+    .section4 .flip-card {
       width: 110px;
       height: 110px;
     }
     
   }
   
-  .flip-card-inner {
+  .section4 .flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -28,11 +30,11 @@ body {
     transform-style: preserve-3d;
   }
   
-  .flip-card:hover .flip-card-inner {
+  .section4 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
-  .flip-card-front, .flip-card-back {
+  .section4 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -45,13 +47,25 @@ body {
     padding: 10px;
   }
   
-  .flip-card-front {
+  .section4 .flip-card-front {
     background-color: #000735;
     color: white;
   }
   
-  .flip-card-back {
+  .section4 .flip-card-back {
     background-color: white;
     color: #000735;
     transform: rotateY(180deg);
+  }
+
+/* esto es del swiper de la section2 */
+  .Swiper2 .swiper-slide {
+    width: 240px !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    .Swiper2 .swiper-slide {
+      width: 84px !important;
+    }
+    
   }
