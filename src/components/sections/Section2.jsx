@@ -59,26 +59,26 @@ const Section2 = () => {
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className="Swiper2 w-full sm:h-auto bg-[#000735] sm:rounded-full rounded-full flex justify-center "
       >
-        <SwiperSlide>
-          <img className="sm:w-60 w-24 rounded-full " src={desechables} alt="desechables" />
+        <SwiperSlide className="flex justify-center items-center">
+          <img className="sm:w-60 w-full h-auto rounded-full " src={desechables} alt="desechables" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img className="sm:w-60 w-24 rounded-full" src={drogueria} alt="drogueria" />
+        <SwiperSlide className="flex justify-center items-center">
+          <img className="sm:w-60 w-full h-auto rounded-full" src={drogueria} alt="drogueria" />
           </SwiperSlide>
-          <SwiperSlide>
-          <img className="sm:w-60 w-24 rounded-full" src={fruty} alt="fruty" />
+          <SwiperSlide className="flex justify-center items-center">
+          <img className="sm:w-60 w-full h-auto rounded-full" src={fruty} alt="fruty" />
           </SwiperSlide>
-          <SwiperSlide>
-          <img className="sm:w-60 w-24 rounded-full" src={juliao} alt="juliao" />
+          <SwiperSlide className="flex justify-center items-center">
+          <img className="sm:w-60 w-full h-auto rounded-full" src={juliao} alt="juliao" />
           </SwiperSlide>
-          <SwiperSlide>
-          <img className="sm:w-60 w-24 rounded-full" src={lavanderia} alt="lavanderia" />
+          <SwiperSlide className="flex justify-center items-center">
+          <img className="sm:w-60 w-full h-auto rounded-full" src={lavanderia} alt="lavanderia" />
           </SwiperSlide>
-          <SwiperSlide >
-          <img className="sm:w-60 w-24 rounded-full" src={ricuras} alt="ricuras" />
+          <SwiperSlide  className="flex justify-center items-center">
+          <img className="sm:w-60 w-full h-auto rounded-full" src={ricuras} alt="ricuras" />
           </SwiperSlide>
-          <SwiperSlide>
-          <img className="sm:w-60 w-24 rounded-full" src={supercarnes} alt="supercarnes" />
+          <SwiperSlide className="flex justify-center items-center">
+          <img className="sm:w-60 w-full h-auto rounded-full" src={supercarnes} alt="supercarnes" />
           </SwiperSlide>
       </Swiper>
     </div>
