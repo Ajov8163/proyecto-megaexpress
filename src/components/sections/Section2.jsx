@@ -52,7 +52,7 @@ const Section2 = () => {
         slidesPerView={4}
         mousewheel={false}
         keyboard={false}
-        // autoplay={{ delay: 2000, disableOnInteraction: false}}
+        autoplay={{ delay: 2000, disableOnInteraction: false}}
         speed={6500}
         freeMode={true} 
         loop={true}
