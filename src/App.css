@@ -69,3 +69,18 @@ body {
     }
     
   }
+
+  .swiper5-button-prev, .swiper5-button-next {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .swiper5-button-prev {
+    background-image: url('/path/to/your/prev-image.png'); /* Ruta a tu imagen personalizada */
+  }
+  
+  .swiper5-button-next {
+    background-image: url('/path/to/your/next-image.png'); /* Ruta a tu imagen personalizada */
+  }
