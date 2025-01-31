@@ -25,7 +25,7 @@ const Section2 = () => {
     <div className="sm:mt-40 mt-20 sm:mx-12 px-3 sm:px-0   ">
       <h1 className="flex justify-center sm:text-5xl text-2xl sm:mb-28 mb-8 sm:font-bold font-bold">NUESTROS ALIADOS</h1>
       <Swiper
-      spaceBetween={10}
+      spaceBetween={27}
         cssMode={true}
         // navigation={true}
         // pagination={true}
@@ -35,8 +35,8 @@ const Section2 = () => {
         breakpoints={{
           // cuando la ventana sea >= 640px
           640: {
-            slidesPerView: 5,
-           
+            slidesPerView: 4,
+          
           },
           // cuando la ventana sea >= 768px
           768: {
@@ -52,7 +52,7 @@ const Section2 = () => {
         slidesPerView={4}
         mousewheel={false}
         keyboard={false}
-        autoplay={{ delay: 2000, disableOnInteraction: false}}
+        // autoplay={{ delay: 2000, disableOnInteraction: false}}
         speed={6500}
         freeMode={true} 
         loop={true}
