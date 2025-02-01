@@ -9,13 +9,13 @@ import { TfiLayoutLineSolid } from "react-icons/tfi";
 import qr from "../../assets/img/qr.png";
 const Section8 = () => {
   return (
-    <div className="bg-[#000735] text-white p-12 mt-10 sm:mt-0">
+    <div className="bg-[#000735] text-white px-3 sm:p-12 mt-10 sm:mt-0">
       <div className="parte1 flex sm:items-center sm:justify-between w-full flex-col sm:flex-row">
         <div className="parte1-1">
           <img src={logo} alt="logo" className="w-48 pb-12" />
           <div className="pb-8 text-lg">
             <p className="pb-2">Dirección:</p>
-            <p>Mz D01 casa 14a Barrio el Porvenir, Valledupar-Cesar</p>
+            <p className="sm:w-full w-80">Mz D01 casa 14a Barrio el Porvenir, Valledupar-Cesar</p>
           </div>
           <div className="pb-8 text-lg">
             <p className="pb-2">Contacto:</p>
