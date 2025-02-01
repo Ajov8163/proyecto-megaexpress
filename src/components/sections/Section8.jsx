@@ -62,7 +62,7 @@ const Section8 = () => {
           </div>
         </div>
       </div>
-      <div className="parte2 flex flex-col-reverse sm:flex-row justify-between border-t-2 border-width pt-5">
+      <div className="parte2 flex flex-col-reverse sm:flex-row justify-between border-t-2 border-width pt-5 sm:pb-0 pb-10">
         <div>©2025 Megaexpress. Todos los derechos reservados.</div>
         <div className="flex sm:gap-8 gap-2 flex-col sm:flex-row mb-8 sm:mb-0">
           <p>Politica y Privacidad</p>
