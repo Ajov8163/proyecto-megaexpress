@@ -5,6 +5,25 @@ body {
     background-color: #f5f5f5;
 }
 
+.navbar {
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.234);
+} 
+
+
+/* esto es del swiper de la section2 */
+.Swiper2 .swiper-slide {
+  width: 240px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .Swiper2 .swiper-slide {
+    width: 84px !important;
+  }
+}
+/* fin section2 */
+
+
+
 
 /* esto es de la section4 */
 .section4 .flip-card {
@@ -57,19 +76,11 @@ body {
     color: #000735;
     transform: rotateY(180deg);
   }
-
-/* esto es del swiper de la section2 */
-  .Swiper2 .swiper-slide {
-    width: 240px !important;
-  }
-
-  @media screen and (max-width: 768px) {
-    .Swiper2 .swiper-slide {
-      width: 84px !important;
-    }
-  }
+  /* fin section4 */
 
 
+
+/* esto es de la section5 */
   .swiper-button-prev,
 .swiper-button-next {
   color: white; /* Cambia el color del icono */
@@ -86,4 +97,39 @@ body {
 .swiper-button-next:after {
   font-size: 20px; /* Ajusta el tamaño del icono */
 }
+/* fin section5 */
 
+
+/* esto es de la section6 */
+.bg-banner  {
+  background-image: url('./assets/img/baner.jpg');
+  background-size: 90%;
+  background-color: #000735;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  
+  
+}
+
+@media screen and (max-width: 768px) {
+  .bg-banner {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000735;
+    height: 400px;
+  }
+ 
+}
+
+.sombra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+ 
+}
+/* fin section6 */
