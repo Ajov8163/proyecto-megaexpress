@@ -2,7 +2,7 @@ import logo from "../assets/img/logo.png";
 import { HiMenu } from "react-icons/hi";
 function NavbarDestock() {
   return (
-    <navbar className="navbar bg-[#000735] sm:h-20 h-20 flex justify-between items-center px-3 sm:px-14 sm:rounded-b-[30px] rounded-b-2xl ">
+    <div className="navbar bg-[#000735] sm:h-20 h-20 flex justify-between items-center px-3 sm:px-14 sm:rounded-b-[30px] rounded-b-2xl ">
       <div className="flex justify-around gap-40 items-center sm:gap-12 w-full sm:w-auto ">
         <div>
           <img className="sm:w-36 w-32" src={logo} alt="Logo" />
@@ -11,13 +11,13 @@ function NavbarDestock() {
           <HiMenu className="text-white text-4xl" />
         </div>
         <div className="hidden sm:block ">
-          <lo className="flex list-none text-white gap-6">
+          <ol className="flex list-none text-white gap-6">
             <li>¿ Quines somos ?</li>
             <li>Contáctanos</li>
             <li>Precios</li>
             <li>Mapas</li>
             <li>Catálogo de clientes</li>
-          </lo>
+          </ol>
         </div>
       </div>
         <div className="hidden sm:block ">
@@ -25,7 +25,7 @@ function NavbarDestock() {
           <h3>Solicita un Domi</h3>
         </button>
       </div>
-    </navbar>
+    </div>
   );
 }
 
