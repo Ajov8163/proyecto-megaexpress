@@ -133,3 +133,20 @@ body {
  
 }
 /* fin section6 */
+
+
+/* esto es de la pagina quienes somos  */
+
+.h1qs{
+  font-size: clamp(30px, 4vw, 45px);
+  font-weight: 600;
+}
+.subqs{
+  font-size: clamp(2rem, 4vw, 1.8rem);
+  font-weight: 500;
+}
+.pqs{
+  font-size: clamp(10px, 4vw, 13px);
+  
+  
+}

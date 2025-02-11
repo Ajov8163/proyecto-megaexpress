@@ -1,5 +1,6 @@
 import logo from "../assets/img/logo.png";
 import { HiMenu } from "react-icons/hi";
+import { Link } from "react-router-dom";
 function NavbarDestock() {
   return (
     <div className="navbar bg-[#000735] sm:h-20 h-20 flex justify-between items-center px-3 sm:px-14 sm:rounded-b-[30px] rounded-b-2xl ">
@@ -12,7 +13,7 @@ function NavbarDestock() {
         </div>
         <div className="hidden sm:block ">
           <ol className="flex list-none text-white gap-6">
-            <li>¿ Quines somos ?</li>
+            <Link to={"/Quienessomos"}><li>¿ Quines somos ?</li></Link>
             <li>Contáctanos</li>
             <li>Precios</li>
             <li>Mapas</li>
