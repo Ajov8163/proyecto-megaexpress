@@ -65,13 +65,6 @@ const Mapas = () => {
         <div className="flex justify-evenly gap-10 flex-wrap">
           {renderImages()}
         </div>
-        <details>
-            <summary>Descargar todos los mapas</summary>
-            <p>don alberto</p>
-            <p>bella vista</p>
-            <p>casimiro</p>
-            <p>mareigua</p>
-        </details>
       </div> 
     </div>
   );
