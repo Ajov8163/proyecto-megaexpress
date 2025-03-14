@@ -150,3 +150,13 @@ body {
   
   
 }
+
+/* esto es de la pagina mapas */
+.imgmap{
+  width: 80%;
+  height: 300px;
+  /* object-fit: cover; */
+  /* aspect-ratio: 3/2; */
+  object-fit: contain;
+  
+}
