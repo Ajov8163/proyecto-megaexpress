@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Quienessomos from './pages/Quienessomos'
 import Precios from './pages/Precios'
 import Mapas from './pages/Mapas'
+import Solicita from './pages/Solicita'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Quienessomos" element={<Quienessomos />} />
         <Route path="/Precios" element={<Precios />} />
         <Route path="/Mapas" element={<Mapas />} />
+        <Route path="/solicita" element={<Solicita />} />
       </Routes>
     </BrowserRouter>
     </>
