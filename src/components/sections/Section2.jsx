@@ -23,7 +23,7 @@ import {
 const Section2 = () => {
   return (
     <div className="sm:mt-40 mt-20 sm:mx-12 px-3 sm:px-0   ">
-      <h1 className="flex justify-center sm:text-5xl text-2xl sm:mb-28 mb-8 sm:font-bold font-bold">NUESTROS ALIADOS</h1>
+      <h1 className="flex justify-center sm:text-5xl text-2xl sm:mb-28 mb-8 sm:font-bold font-semibold">NUESTROS ALIADOS</h1>
       <Swiper
       spaceBetween={27}
         cssMode={true}
@@ -57,7 +57,7 @@ const Section2 = () => {
         freeMode={true} 
         loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-        className="Swiper2 w-full sm:h-auto bg-[#000735] sm:rounded-full rounded-full flex justify-center "
+        className="Swiper2 w-full sm:h-auto sm:rounded-full rounded-full flex justify-center "
       >
         <SwiperSlide className="flex justify-center items-center">
           <img className="sm:w-60 w-full h-auto rounded-full " src={desechables} alt="desechables" />
@@ -86,3 +86,5 @@ const Section2 = () => {
 }
 
 export default Section2;
+
+

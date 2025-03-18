@@ -41,9 +41,9 @@ const Section1 = () => {
         spaceBetween={1}
           cssMode={true}
           // navigation={true}
-          pagination={{
-            clickable: true,
-          }}
+          // pagination={{
+          //   clickable: true,
+          // }}
           mousewheel={false}
           keyboard={false}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
