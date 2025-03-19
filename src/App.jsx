@@ -24,7 +24,6 @@ function App() {
         <Route path="/Mapas" element={<Mapas />} />
         <Route path="/solicita" element={<Solicita />} />
         <Route path="/cataclientes" element={<Cataclientes />} />
-      
       </Routes>
     </BrowserRouter>
     </>

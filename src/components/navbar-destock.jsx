@@ -49,7 +49,7 @@ function NavbarDestock() {
             <Link to={"/Mapas"}>
               <li>Mapas</li>
             </Link>
-            <Link to={"cataclientes"}><li>Catálogo de clientes</li></Link>
+            <Link to={"/cataclientes"}><li>Catálogo de clientes</li></Link>
           </ol>
         </div>
         <div
