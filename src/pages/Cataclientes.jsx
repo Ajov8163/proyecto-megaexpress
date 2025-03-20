@@ -72,13 +72,11 @@ const Cataclientes = () => {
         <p className="text-center text-lg sm:text-xl mb-8">
           ENCUENTRA LO QUE NECESITAS EN NUESTRA VARIEDAD DE CLIENTES
         </p>
-        <div className="flex flex-wrap justify-evenly gap-12 md:gap-8">
-
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 ">
           {clients.map((client, index) => (
             <div
               key={index}
-              className="w-full sm:w-[48%] md:w-[30%] border rounded-lg p-4 flex flex-col items-start shadow-lg"
-
+              className="border rounded-lg p-4 flex flex-col items-start shadow-lg "
             >
               <img
                 src={client.image}
@@ -86,21 +84,20 @@ const Cataclientes = () => {
                 className="shadow-md rounded-lg mb-4"
               />
               <h2 className="text-xl font-semibold mb-2">{client.name}</h2>
-              <p className="text-start mb-4">{client.description}</p>
+              <p className="text-xs md:text-base mb-4">{client.description}</p>
               <button
-                className="bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300"
+                className="bg-[#000735] text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300"
                 onClick={() =>
                   window.open(
                     `https://wa.me/${client.whatsapp}?text=Hola, estoy interesado en sus servicios.`,
                     "_blank"
                   )
                 }
-
               >
                 Contactar
               </button>
             </div>
-          ))} 
+          ))}
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
-
+import { useState } from "react";
+import Login from "../Login";
 // Importa las imágenes locales
 import imagen1 from "../../assets/img/compra.jpg";
 import imagen2 from "../../assets/img/negocios.jpg";
@@ -18,12 +19,22 @@ import {
   Autoplay,
   
 } from "swiper/modules";
+
 const Section1 = () => {
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
+
+  const handleLoginOpen = () => {
+    setIsLoginOpen(true);
+  };
+
+  const handleLoginClose = () => {
+    setIsLoginOpen(false);
+  };
+
   return (
-   
-      <div className="sm:flex  sm:mx-12 sm:mt-20 mt-12 justify-center gap-20 h-auto items-center">
+    <div className="sm:flex sm:mx-12 sm:mt-20 mt-12 justify-center gap-20 h-auto items-center">
       <div className="sm:w-6/12 px-3 sm:h-96 mb-10 sm:mb-0">
-        <h1 className=" sm:text-5xl sm:font-bold text-2xl font-bold sm:mb-8 mb-6 ">
+        <h1 className="sm:text-5xl sm:font-bold text-2xl font-bold sm:mb-8 mb-6">
           Bienvenido a Megaexpress Mensajería, tu solución rápida.
         </h1>
         <p className="sm:mb-8 mb-8 text-sm sm:text-base">
@@ -32,24 +43,23 @@ const Section1 = () => {
           Descubre cómo podemos ayudarte a enviar tus paquetes de manera segura
           y rápida
         </p>
-        <button className="border-2 border-blue-950 rounded-lg sm:py-2 py-[4px] sm:px-8 px-[18px]  hover:bg-[#000735] hover:text-white">
+        <button
+          onClick={handleLoginOpen}
+          className="border-2 border-blue-950 rounded-lg sm:py-2 py-[4px] sm:px-8 px-[18px] hover:bg-[#000735] hover:text-white"
+        >
           Regístrate
         </button>
       </div>
-      <div className="sm:w-5/12 px-3 sm:px-0" >
+      <div className="sm:w-5/12 px-3 sm:px-0">
         <Swiper
-        spaceBetween={1}
+          spaceBetween={1}
           cssMode={true}
-          // navigation={true}
-          // pagination={{
-          //   clickable: true,
-          // }}
           mousewheel={false}
           keyboard={false}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay, ]}
-          className="Swiper1 w-full h-full rounded-3xl "
+          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+          className="Swiper1 w-full h-full rounded-3xl"
         >
           <SwiperSlide>
             <img src={imagen1} alt="Imagen 1" />
@@ -65,10 +75,10 @@ const Section1 = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+      <Login isOpen={isLoginOpen} onClose={handleLoginClose} />
     </div>
-    
-  )
-}
+  );
+};
 
 export default Section1;
 

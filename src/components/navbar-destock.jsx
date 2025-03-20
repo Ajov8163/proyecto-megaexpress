@@ -50,6 +50,7 @@ function NavbarDestock() {
               <li>Mapas</li>
             </Link>
             <Link to={"/cataclientes"}><li>Catálogo de clientes</li></Link>
+            <Link to={"/pqr"}><li>PQR</li></Link>
           </ol>
         </div>
         <div
@@ -77,7 +78,8 @@ function NavbarDestock() {
               <Link to={"/Mapas"}>
                 <li className="py-2 border-b border-white">Mapas</li>
               </Link>
-              <Link to={"cataclientes"}><li className="py-2 border-b border-white ">Catálogo de clientes</li></Link>
+              <Link to={"/cataclientes"}><li className="py-2 border-b border-white ">Catálogo de clientes</li></Link>
+              <Link to={"/pqr"}><li className="py-2 border-b border-white ">PQR</li></Link>
             </ol>
             <div className="flex justify-center p-4 mt-auto">
               <Link to={"/Solicita"}>
