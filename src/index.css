@@ -1,3 +1,16 @@
+/* Importa la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+Aplica la fuente globalmente
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Asegúrate de que otros elementos también hereden la fuente */
+* {
+  font-family: inherit;
+}
