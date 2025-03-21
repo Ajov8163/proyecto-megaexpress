@@ -2,6 +2,7 @@ import wilmer from '../../assets/img/mensajeros/wilmer.jpg';
 import raul from '../../assets/img/mensajeros/raul.jpg';
 import niris from '../../assets/img/mensajeros/niris.jpg';
 import albert from '../../assets/img/mensajeros/albert.jpg'
+import { Link } from 'react-router-dom';
 const Section7 = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-16 sm:mb-16 sm:mx-12 px-3">
@@ -48,7 +49,9 @@ const Section7 = () => {
         ¡Estamos contratando!
         </h1>
         <p className=''>Únete a nuestro equipo y crece con nosotros.</p>
+        <Link to={"/dashboard"}>
         <button className='hover:bg-[#000735] hover:text-white px-8 py-2 rounded-lg mt-6 border-2 border-[#000735]'>Aplicar</button>
+        </Link>
       </div>
     </div>
   );
