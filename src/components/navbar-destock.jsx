@@ -83,7 +83,7 @@ function NavbarDestock() {
             </ol>
             <div className="flex justify-center p-4 mt-auto">
               <Link to={"/Solicita"}>
-                <button className="bg-[#000735] text-white px-4 py-2 rounded-lg border border-white hover:bg-white hover:text-blue-950">
+                <button className="bg-[#000735] text-white px-4 py-2 rounded-lg border border-white hover:bg-white hover:text-blue-950  duration-700">
                   <h3>Solicita un Domi</h3>
                 </button>
               </Link>
