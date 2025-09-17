@@ -94,7 +94,7 @@ function NavbarDestock() {
       <div className="hidden sm:block">
         <button
           onClick={handleSolicitaClick}
-          className="bg-[#000735] text-white px-4 py-2 rounded-lg border-2 border-white hover:bg-white hover:text-blue-950"
+          className="bg-[#000735] text-white px-4 py-2 rounded-lg border-2 border-white hover:bg-white  hover:text-blue-950 duration-700"
         >
           <h3>Solicita un Domi</h3>
         </button>

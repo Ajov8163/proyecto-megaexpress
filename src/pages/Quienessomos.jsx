@@ -12,7 +12,7 @@ const Quienessomos = () => {
     <div className="flex flex-col items-center sm:mx-12  justify-center px-3 sm:px-0 h-auto pt-10 sm:py-15">
       <h1 className="h1qs sm:text-5xl font-semibold sm:mb-[3%] mb-[10%]">¿ QUIENES SOMOS ?</h1>
       <div className="contenedor flex w-full justify-between sm:flex-row flex-col gap-8 sm:gap-0 ">
-        <div className="border-2 border-gray-400 rounded-3xl p-5 flex items-center flex-col w-full sm:w-[23%] h-auto bg-white">
+        <div className="border-2 border-gray-400 rounded-3xl p-5 flex items-center flex-col w-full sm:w-[23%] h-auto bg-white hover:bg-[#000739] hover:text-white hover:scale-95 duration-500">
           <img className="w-[40%] mb-[5%]" src={nosotros} alt="img nosotros" />
           <h3 className="subqs mb-[5%]">NOSOTROS</h3>
           <p className="pqs text-center">
@@ -25,7 +25,7 @@ const Quienessomos = () => {
             para superar tus espectaivas en cada servicio que ofrecemos.
           </p>
         </div>
-        <div className="border-2 border-gray-400 rounded-3xl p-5 flex items-center flex-col sm:w-[23%] w-full bg-white">
+        <div className="border-2 border-gray-400 rounded-3xl p-5 flex items-center flex-col sm:w-[23%] w-full bg-white hover:bg-[#000739] hover:text-white hover:scale-95 duration-500">
           <img className="w-[40%] mb-[5%]" src={mision} alt="img nosotros" />
           <h3 className="subqs text-3xl font-medium mb-[5%]">MISIÓN</h3>
           <p className="pqs text-center ">
@@ -33,7 +33,7 @@ const Quienessomos = () => {
           Nos comprometemos a conectar personas y negocios a través de un servicio de entrega confiable. Creemos en construir relaciones duraderas y en ser un socio de confianza.
           </p>
         </div>
-        <div className="border-2 border-gray-400 rounded-3xl p-5 flex items-center flex-col sm:w-[23%] w-full bg-white">
+        <div className="border-2 border-gray-400 rounded-3xl p-5 flex items-center flex-col sm:w-[23%] w-full bg-white hover:bg-[#000739] hover:text-white hover:scale-95 duration-500">
           <img className="w-[40%] mb-[5%]" src={vision} alt="img nosotros" />
           <h3 className="subqs text-3xl font-medium mb-[5%]">VISION</h3>
           <p className="pqs text-center">
@@ -41,7 +41,7 @@ const Quienessomos = () => {
           Aspiramos a costruir relaciones duraderas con nuestros clientes, siendo su primera opción en soluciones de mensajería efectiva.
           </p>
         </div>
-        <div className="border-2 border-gray-400 rounded-3xl p-5 flex items-center flex-col sm:w-[23%] w-full bg-white">
+        <div className="border-2 border-gray-400 rounded-3xl p-5 flex items-center flex-col sm:w-[23%] w-full bg-white hover:bg-[#000739] hover:text-white hover:scale-95 duration-500 " >
           <img className="w-[40%] mb-[5%]" src={valores} alt="img nosotros" />
           <h3 className="subqs text-3xl font-medium mb-[5%]"> VALORES</h3>
           <p className="pqs text-center">

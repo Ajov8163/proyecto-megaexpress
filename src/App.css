@@ -146,7 +146,7 @@ body {
   font-weight: 500;
 }
 .pqs{
-  font-size: clamp(10px, 4vw, 13px);
+  font-size: clamp(10px, 3vw, 12px);
   
   
 }
